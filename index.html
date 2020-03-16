@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Engine Example | Naishare</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://naishare.com/images/favicon.png"
+    />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <style>
+      .container-out {
+        font-family: "Fira Sans", sans-serif;
+        padding: 15px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-out">
+      <div class="container-in">
+        <div class="search-container">
+          <div class="search-engine">
+            <p class="search-title">Search Names</p>
+            <input
+              type="input"
+              id="search-input"
+              autocomplete="off"
+              placeholder="Hit Enter to Search"
+            />
+          </div>
+          <div id="search-results"></div>
+          <div id="search-data"></div>
+        </div>
+      </div>
+    </div>
+    <script src="https://naishare.com/blog/js/database.js"></script>
+    <script src="javascript/Search.js"></script>
+  </body>
+</html>
