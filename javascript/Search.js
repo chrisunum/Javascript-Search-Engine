@@ -61,7 +61,7 @@ function displayAllData(names) {
   element("search-data").innerHTML = names;
   hideSearchResults();
 }
-//clears names displayed from search result
+//clears names displayed from search result input
 function clearSearchData() {
   element("search-data").innerHTML = "";
 }
